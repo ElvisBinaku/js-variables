@@ -29,3 +29,13 @@ console.log(cityNameConcat); // Output: "New York City"
 // Trasforma tutto in maiscuolo la stringa della variabile hello
 const upperCaseHello = hello.toUpperCase();
 console.log(upperCaseHello); // Output: "HELLO"
+
+
+
+const selectFruit = shoppingList.search("mela");
+const lengthFruit = selectFruit.length;
+const selectedFruit = shoppingList.substring(selectFruit, lengthFruit);
+
+console.log(selectedFruit);
+console.log(selectFruit);
+console.log(lengthFruit);
